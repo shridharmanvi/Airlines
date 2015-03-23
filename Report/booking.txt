@@ -1,0 +1,128 @@
+<html>
+<head> <style type="text/css">
+body 
+{
+background-image:url('flights11.jpg');
+background-repeat:no-repeat;
+background-attachment:fixed
+}
+</style>
+</head>
+<body>
+<form action="insert"><br><br>
+
+<b>FIRSTNAME: &nbsp;&nbsp;&nbsp;<input type="text" value=" " name="t1"><br><br>
+LASTTNAME: &nbsp;&nbsp;&nbsp;<input type="text" value=" " name="t2"><br><br>
+EMAIL ID: &nbsp;&nbsp;&nbsp;<input type="text" value=" " name="t3"><b>
+
+<br> <br> 
+DATE OF JOURNEY: &nbsp;<select size="1" name="db">
+&nbsp;&nbsp;&nbsp;
+<option value="01"> 01 </option>
+<option value="02"> 02 </option>
+<option value="03"> 03 </option>
+<option value="04"> 04 </option>
+<option value="05"> 05 </option>
+<option value="06"> 06 </option>
+<option value="07"> 07</option>
+<option value="08"> 08 </option>
+<option value="09"> 09 </option>
+<option value="10"> 10 </option>
+<option value="11"> 11 </option>
+<option value="12"> 12 </option>
+<option value="13"> 13 </option>
+<option value="14"> 14 </option>
+<option value="15"> 15 </option>
+<option value="16"> 16 </option>
+<option value="17"> 17</option>
+<option value="18"> 18 </option>
+<option value="19"> 19 </option>
+<option value="20"> 20 </option>
+<option value="21"> 21 </option>
+<option value="22"> 22 </option>
+<option value="23"> 23 </option>
+<option value="24"> 24 </option>
+<option value="25"> 25 </option>
+<option value="26"> 26 </option>
+<option value="27"> 27</option>
+<option value="28"> 28 </option>
+<option value="29"> 29 </option>
+<option value="30"> 30 </option>
+<option value="31"> 31 </option>
+</select>
+
+&nbsp;&nbsp;&nbsp;<select size="1" name="db1">
+<option value="JANUARY"> JANUARY </option>
+<option value="FEBRUARY"> FEBRUARY </option>
+<option value="MARCH"> MARCH</option>
+<option value="APRIL"> APRIL </option>
+<option value="JUNE"> JUNE </option>
+<option value="JULY"> JULY </option>
+<option value="AUGUST"> AUGUST</option>
+<option value="SEPTEMBER"> SEPTEMBER </option>
+<option value="OCTOBER"> OCTOBER </option>
+<option value="NOVEMBER"> NOVEMBER </option>
+<option value="DECEMBER"> DECEMBER </option>
+</SELECT>
+&nbsp;&nbsp;&nbsp;<select size="1" name="db2">
+<option value="2009"> 2009 </option>
+<option value="2010"> 2010 </option>
+</select>
+<br><br> 
+
+SOURCE:
+&nbsp;&nbsp;&nbsp;<select size="1" name="db3">
+<option value="SINGAPORE"> SINGAPORE </option>
+<option value="SAN FRANCISO"> SAN FRANCISCO </option>
+<option value="NEW YORK"> NEW YORK</option>
+<option value="LOS ANGELES"> LOS ANGELES</option>
+<option value="LAS VEGAS"> LAS VEGAS </option>
+<option value="LONDON"> LONDON </option>
+<option value="INDIA"> INDIA</option>
+</SELECT>
+         destination:
+&nbsp;&nbsp;&nbsp;<select size="1" name="db4">
+<option value="SINGAPORE"> SINGAPORE </option>
+<option value="SAN FRANCISO"> SAN FRANCISCO </option>
+<option value="NEW YORK"> NEW YORK</option>
+<option value="LOS ANGELES"> LOS ANGELES</option>
+<option value="LAS VEGAS"> LAS VEGAS </option>
+<option value="LONDON"> LONDON </option>
+<option value="INDIA"> INDIA</option>
+
+</SELECT>
+<br>
+<br><br> FLIGHT NAME: &nbsp;<select size="1" name="db5">
+<option value="JET AIRWAYS"> JET AIRWAYS </option>
+<option value="INDIAN AIRLINES"> INDIAN AIRLINES </option>
+
+</select>
+
+<br><br> AGE: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" value=" " name="t4">
+<br><br> GENDER: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" value=" " name="t5">
+<br> <br>CREDIT CARD NO &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" value=" " name="t6">
+
+<br>
+<br>
+
+<tr>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<input type="submit" name="submit" value="SUBMIT" />
+</tr>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<tr>
+<input type="submit" name="submit" value="RESET"/>
+</tr>
+</body>
+</html>
+
+
+
+
+
+
+

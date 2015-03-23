@@ -1,0 +1,58 @@
+<html>
+<head> <style type="text/css">
+body 
+{
+background-image:url('flights11.jpg');
+background-repeat:no-repeat;
+background-attachment:fixed
+}
+</style>
+</head>
+<body>
+
+<p>
+<img src ="alcatraz.jpg"
+align ="left" width="150" height="150"> 
+<b> ALCATRAZ </b>
+<br>Your tour includes the ferry ride to Alcatraz Island and an audio walking tour of the 'Cell Block'. This former federal penitentiary also known as 'The Rock', housed gangsters such as Al Capone (Scarface) and Machine Gun Kelly. You will learn about the famous 'Escape from Alcatraz', it's famous inmates and much more. Tours are daily but Alcatraz is extremely popular so book now and you won't miss out!
+</p><BR><BR><BR><BR><BR>
+
+<p>
+<img src ="fishermans.jpg"
+align ="right" width="150" height="150"> 
+<b> FISHERMANS WHARF </b>
+<br>PIER 39 is San Francisco’s #1 Attraction - a festival marketplace with more than 110 stores, 13 full-service restaurants with bay views and numerous fun-filled attractions. PIER 39's shops feature everything from NFL Merchandise to jewelry and imported chocolates.
+</p> <BR><BR><BR>
+
+<p>
+<img src ="chinatown.jpg"
+align ="left" width="150" height="150">
+<b> CHINA TOWN </b> 
+<br>San Francisco Chinatown, the oldest Chinese community in the United States, has been a popular shopping, dining and sightseeing destination for over a century. Yet most outsiders have never experienced the extrasensory realm of vintage Chinatown. Some say that specters from decades of Chinatown history emerge just after twilight…
+</p><BR><BR><BR><BR><BR>
+
+<p>
+<img src ="muir.jpg"
+align ="right" width="150" height="150"> 
+<b> MUIR WOODS </b>
+<br>Leaving San Francisco via the Golden Gate Bridge, you will travel to a forest of some of the oldest and tallest trees on earth - Muir Woods' Redwood Trees. Discover the delightful village of Sausalito.
+</p><BR><BR><BR>
+
+<p>
+<img src ="napa.jpg"
+align ="left" width="150" height="150">
+<b> WINE NAPA </b> 
+<br>With vineyards below and majestic mountains rising in the distance, see the undulating hills and golden grassed valleys of San Francisco's Wine Country.  With a tour bus and expert guide to escort you to premium wine-tasting at Sonoma and Napa Valleys.
+</p><BR><BR><BR>
+
+<p>
+<img src ="monterey.jpg"
+align ="right" width="150" height="150"> 
+<b> MONTEREY</b>
+<br>For a scenic day out, explore the beauty along California's famous coast Highway 1 by the towns of Santa Cruz and Capitola. Take in views of the Carmel Valley Hills and enjoy the spectacular scenery of the Monterey pine forests, rocky coastline and vistas of crashing surf, as a chorus of sea lions barks on the rocks.
+</p><BR><BR><BR>
+
+
+</body>
+</html>
+

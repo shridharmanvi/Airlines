@@ -1,0 +1,108 @@
+/*
+ * insert.java
+ *
+ * Created on October 29, 2009, 12:06 PM
+ */
+
+import java.io.*;
+import java.sql.*;
+import java.net.*;
+import java.lang.Math;
+import javax.servlet.*;
+import javax.servlet.http.*;
+
+/**
+ *
+ * @author User
+ * @version
+ */
+public class insert extends HttpServlet {
+    
+    /** Processes requests for both HTTP <code>GET</code> and <code>POST</code> methods.
+     * @param request servlet request
+     * @param response servlet response
+     */
+    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
+    throws ServletException, IOException {
+        Statement sqlst=null;
+        try
+        {Class.forName("sun.jdbc.odbc.JdbcOdbcDriver"); 
+            Connection con = DriverManager.getConnection("jdbc:odbc:master");//getOracleJDBCConnection();
+	    if(con!= null){
+               System.out.println("Got Connection.");
+	   sqlst=con.createStatement();
+            }
+            
+        response.setContentType("text/html;charset=UTF-8");
+        PrintWriter out = response.getWriter();
+         String t1=request.getParameter("t1");
+    String t2=request.getParameter("t2");
+    String t3=request.getParameter("t3");
+    String t4=request.getParameter("db");
+    String t5=request.getParameter("db1");
+    String t6=request.getParameter("db2");
+    String t7=request.getParameter("db3");
+    String t8=request.getParameter("db4");
+    String t9=request.getParameter("db5");
+    String t10=request.getParameter("t4");
+    String t11=request.getParameter("t5");
+        String t12=request.getParameter("t6");
+    double x=Math.random();
+    Double in=new Double(x);
+    String s7=in.toString();
+    String s8=s7.substring(2,6);
+    
+    int q= sqlst.executeUpdate("insert into custinfo values ('"+t1+"','"+t2+"','"+t3+"','"+t4+"','"+t5+"','"+t6+"','"+t7+"','"+t8+"','"+t9+"','"+t10+"','"+t11+"','"+t12+"','"+s8+"')");
+     out.print("<html><head></head><body>");
+        out.print("<center>");
+        out.print("<table border=2>");
+        out.print("<tr>");   
+             out.print("<th>");
+                    out.print("PnrNO");
+                      out.print("</th>");
+                      out.print("<th>");
+                    out.print("'"+s8+"'");
+                      out.print("</th>");
+                         out.print("</tr>");
+     out.print("</table>");
+            out.print("<form  method='post' action='TP.HTML'>") ;
+                out.print("<input type='submit' name='Next' value='Next'>" );
+                out.print("</form>");
+        
+        out.print("</center>");
+        
+        out.print("</body></html>");                     
+}
+            catch(Exception e)
+            {
+                e.printStackTrace();
+            }
+        //out.close();
+    }
+    
+    // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
+    /** Handles the HTTP <code>GET</code> method.
+     * @param request servlet request
+     * @param response servlet response
+     */
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+    throws ServletException, IOException {
+        processRequest(request, response);
+    }
+    
+    /** Handles the HTTP <code>POST</code> method.
+     * @param request servlet request
+     * @param response servlet response
+     */
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+    throws ServletException, IOException {
+        processRequest(request, response);
+    }
+    
+    /** Returns a short description of the servlet.
+     */
+    public String getServletInfo() {
+        return "Short description";
+    }
+    // </editor-fold>
+}
